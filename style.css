@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .video-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+  }
+  
+  .details-section {
+    padding: 20px;
+  }
+  
+  .details-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .details-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .details-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .details-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .details-section h3 {
+    font-size: 1.6rem;
+    color: #555;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .panels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .admin-panel, .user-panel {
+    width: 45%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  ol {
+    padding-left: 20px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  ol li {
+    margin-bottom: 10px;
+  }
+  
+  ol li::marker {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .panels {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .admin-panel, .user-panel {
+      width: 100%;
+    }
+  }
+  
